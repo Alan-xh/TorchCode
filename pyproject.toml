@@ -39,3 +39,6 @@ exclude = ["labextension*", "scripts*", "templates*", "solutions*", "jupyter_con
 
 [tool.setuptools.dynamic]
 version = {attr = "torch_judge._version.__version__"}
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
